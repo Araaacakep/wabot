@@ -29,7 +29,7 @@ let handler  = async (m, { conn, usedPrefix }) => {
 ${(global.linkGC).map((v, i) => '║ *Group ' + (i + 1) + '*\n║' + v).join`\n║\n`}
 ║
 ║${readMore}
-╠═〘 SYARAT & KETENTUAN Games-wabot 〙 ═
+╠═〘 SYARAT & KETENTUAN Tatabot 〙 ═
 ╠➥ *KAMI TIDAK BERTANGGUNG*
 ║   *JAWAB ATAS PENYALAH*
 ║   *GUNAAN BOT*
@@ -42,8 +42,8 @@ ${(global.linkGC).map((v, i) => '║ *Group ' + (i + 1) + '*\n║' + v).join`\n�
 ║ 
 ║ 
 ╠═ ©2021 ${package.name}
-╠═ Script original by Nurutomo
-╠═〘 METRO BOT 〙 ═
+╠═ Script original by .. 
+╠═〘 TATA BOT 〙 ═
 `.trim(), m)
 }
 handler.help = ['info']
